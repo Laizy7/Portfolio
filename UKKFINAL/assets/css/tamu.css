@@ -1,0 +1,152 @@
+.navtamu {
+    height: 6vh;
+    background-color: rgb(69, 94, 240);
+}
+
+.ultamu {
+    position: relative;
+}
+
+ul {
+    padding-top: 0.7vh;
+    height: 6vh;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+ul li {
+    display: inline-flex;
+}
+
+ul li a {
+    color: aliceblue;
+    font-weight: 500;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: rgb(14, 199, 245);
+}
+
+ul li:nth-child(6) {
+    width: 5rem;
+    border: 2px solid white;
+    border-radius: 6px;
+    position: absolute; right: 4.3vw;
+    text-decoration: none;
+}
+    
+ul li:nth-child(6):hover {
+    background-color: rgb(252, 52, 52);
+    transform: scale(1.2);
+}
+
+ul li:nth-child(6) a {
+    color: red;
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+ul li:nth-child(6) a:hover {
+    color: white;
+}
+
+ul li:nth-child(7) {
+    width: 1.7rem; height: 1.7rem;
+    position: absolute; right: 11vw;
+}
+
+ul li:nth-child(7) img {
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+ul li:nth-child(8) {
+    width: 10rem;
+    color: white;
+    position: absolute; right: 13.5vw;
+    justify-content: end;
+    text-decoration: 2px underline cyan;
+    /* border: 1px solid red; */
+}
+
+.isi {
+    background-color: rgb(150, 194, 245);
+    min-height: 94vh;
+}
+
+.judul {
+    font-size: 3rem; font-weight: 700; font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+.imghotel {
+    width: 100%;
+    height: 50%;
+}
+
+.ttgkami_j {
+    font-size: 2rem; font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.ttgkami_t {
+    font-size: 1rem;
+    color: white;
+    text-align: justify;
+}
+
+.rkamar {
+    height: 45vh;
+}
+
+.imgkamar {
+    width: 100%; height: 100%;
+}
+
+.tipekamar {
+    font-size: 2rem; font-weight: 500;
+    color: gold;
+    padding-top: 0;
+}
+
+.faskamar {
+    color: white; font-weight: 500;
+    font-size: 1.2rem;
+    width: 20rem;
+}
+
+.jmlhskrg {
+    margin-top: 2rem;
+    color: greenyellow; font-weight: 500;
+    font-size: 1.2rem;
+    width: 20rem;
+}
+
+.btnbooking {
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 10rem;
+}
+
+.btnpesan {
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 10rem;
+}
+
+.btnpesan:hover {
+    background-color: rgb(44, 235, 44);
+    transform: scale(1.1);
+    border: none;
+}
+
+label {
+    color: white; font-weight: 500;
+}
+
+.fw500{
+    font-weight: 500;
+}
