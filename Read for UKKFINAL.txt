@@ -9,7 +9,11 @@ To login as Guest/Client
 
 To login as Admin
 -> Nama : admin
--> Password : admin 
+-> Password : admin
+
+To login as Receptionist
+-> Nama : rsp
+-> Password : rsp
 
 Before, I used PHP ver 7, but in PHP ver 8 there are some configs in this project 
 I added #[\AllowDynamicProperties] to /system/core/Controller.php, Loader.php, Router.php, Security.php, URI.php
